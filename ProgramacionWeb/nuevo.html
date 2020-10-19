@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+	
+	<link rel="stylesheet" href="nuevoCss.css">
+	<link rel="stylesheet" href="nuevoJava.js">
+	<meta http-equiv="content-type" charset="UTF-8">
+	<title>Consultorio Médico</title>
+	
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+	<meta name="author" content="Abel Acevedo"/>  <!--AUTOR--> 
+	<meta name="description" content="Consultorio Medico Y Particular"/>  <!--Descripcion-->
+	<meta name="keywords" content="consultorio medico, pami, consultorio tortuguitas, particular, oncologo, Victor Acevedo"/>  <!--Palabra clave-->
+	<meta name="language" content="es"/>          <!--Si queremos que nos lean usuarios que tienen buscadores del idioma elegido-->
+	<meta name="revisit-after" content=!1month!/> <!--Avisa a los robots par q revisen-->
+	<meta name="robots" content="index, follow"/> <!--Indica a los robots q rastree o no la pagina-->
+	
+	<!--Etiquetas "meta“ Para servidores-->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!--Si queremos que nuestra página se actualice muy frecuentemente-->
+	<meta http-equiv="Refresh" content="1200" /> <!--Se actualiza cada 10 minutos, 600segundos=10minutos-->
+	<!--Redireccionar una página , es una de las utilidades más usadas por la etiqueta "meta".-->
+	<!-- <meta http-equiv="Refresh" content= "15; URL=http://www.mipagina.com/index.html"> -->
+	<link rel="icon" href="imagenes/faviconD.ico" type="image/ico" />  <!--Icono Favicon-->
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Crete+Round:ital@1&family=Racing+Sans+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	
+<script>
+			$(document).ready(function() {
+  $('a[href^="#"]').click(function() {
+    var destino = $(this.hash);
+    if (destino.length == 0) {
+      destino = $('a[name="' + this.hash.substr(1) + '"]');
+    }
+    if (destino.length == 0) {
+      destino = $('html');
+    }
+    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+    return false;
+  });
+});
+	
+</script>
+	
+</head>
+
+<body>
+<div id="agrupar">
+
+	<header id="cabecera">
+		<div id="emergencia">
+			<img src="imagenes\emergencia.jpg" style="width:529; height:120;">
+		</div>
+		<div class="contenedor-cabecera">      
+			<img class="imagen" src="imagenes\cruz.png" style="width:40px;height:40px;">
+			<h1>Grupo médico tortuguitas</h1>
+		</div>
+	</header>
+
+	<nav id="menu">
+		<ul class="menu-1">
+			<li><a href="#direccion" style="border-right: none;" >Dirección</a></li>
+			<li><a href="#contacto" >Contacto</a></li>
+			<li><a href="#videos">Videos</a></li>
+			<li><a href="#covid-19">Covid-19</a></li>
+			<li><a href="#especialidades">Especialidades</a></li>
+			<li><a href="#Nosotros">Nosotros</a></li>
+			<li><a class="active"  href="#Inicio"><strong>Inicio</strong></a></li>
+		</ul>
+	</nav>
+
+<div id="fondo">
+<!-- seccion nosotros-->	
+
+<section id="nosotros">
+	<div class="titulo-h1">
+		<h3>Nosotros</h3>
+	</div>
+	<div class="contImagen">
+		<img src="imagenes\primera.jpg"  style="width:500px; height:380px;" >
+		<p><strong>Sobre el consultorio</strong> Grupo Médico Tortuguitas, brinda hace más de 25 años servicio de excelencia médica contando con más de 35 especialidades en nuestros consultorios. Nuestro objetivo es cuidar la salud de todos nuestros pacientes y mejor la calidad de vida de las personas.</p><br>
+		<p><strong>Importante turnos y recetas:</strong> Los turnos y recetas se solicitan en el horario de <span>12:00hs a 16:00hs</span>. Las recetas pueden tardar hasta 7 dias en ser realizadas.<br>Para pedir sus recetas o sacar turno comuniquese al <span>1168885612</span> via whatsApp con foto de carnet de Pami y fotos de los medicamentos que toma, a la brevedad recibira un whatsApp, "mensaje" con sus recetas electronicas hechas.</p>
+	</div>
+</section>
+
+<!--Seccion especialidades-->
+
+<section id="especialidades">
+	<div class="titulo-h2">
+		<h3>Especialidades</h3>
+	</div>
+	<div class="cuerpo-especialidades">
+
+	<div class="texto-especialidades" >
+		<img src="imagenes\nosotros.jpg"  style="width:500px; height: 380px;">
+		<p><strong>Medicina general:</strong> La medicina general constituye el primer nivel de atención médica y es imprescindible para la prevención, detección, tratamiento y seguimiento de las enfermedades crónicas estabilizadas, responsabilizándose del paciente en su conjunto, para decidir su derivación a los especialistas cuando alguna patología se descompense.</p>
+		<p><strong>Oncologia:</strong> Médico que tiene una formación especial para diagnosticar y tratar el cáncer en adultos mediante quimioterapia, terapia con hormonas, terapia biológica y terapia dirigida. A menudo, un oncólogo médico es el proveedor principal de atención de la salud de alguien que padece de cáncer.</p>
+		<p><strong>Profecional:</strong> Victor Alejandro Acevedo, <span> medico clinico especializado en Oncologia.</span></p>
+	</div>
+	</div>
+</section>
+
+<!-- Seccion covid-19-->
+<section id="covid-19">
+	<div class="titulo-h3">
+
+		<h3>Covid-19</h3>
+	</div>
+		<div class="cuerpo-covid">
+			<hgroup>
+				
+				<h3>PAMI ESCUCHA Y RESPONDE HABILITÓ UNA LÍNEA EXCLUSIVA PARA EMERGENCIAS COVID-19: COMUNICATE AL 138 – OPCIÓN 9</h3>
+			</hgroup>
+			<img src="imagenes\coronavirus.jpg" style="width:500px; height: 380px; "> 
+			<div id="sintomas">
+				<h4> <strong>SI PRESENTÁS DOS O MÁS DE LOS SIGUIENTES SÍNTOMAS </strong></h4> 
+				<ol>
+					<li>Fiebre (37.5°C o más)</li>
+					<li>Tos</li>
+					<li>Odinofagia</li>
+					<li>Dificultad respiratoria</li>
+					<li>Pérdida repentina del gusto o del olfato</li>
+					<li>Cefalea</li>
+					<li>Diarrea y/o vómitos</li>
+					<li>Mialgia</li>
+				</ol>
+				<h4>NO TE AUTOMEDIQUES Y CONSULTÁ INMEDIATAMENTE AL SISTEMA DE SALUD</h4>
+			</div>
+		</div>
+</section>
+
+<!--Seccion videos-->
+
+<section id="videos">
+
+	<div class="contenedor-videos">
+		<h3>Videos de interes</h3>
+		<video width="600" controls>
+		  <source src="COVID-19.mp4" type="video/mp4">
+		  <source src="mov_bbb.ogg" type="video/ogg">
+		  Your browser does not support HTML5 video.
+		</video>
+	
+	</div>
+</section>
+</div>
+<!--Seccion contacto-->
+
+<section id="contacto">
+ 
+  <div class="contenedor">
+    <h3>Contacto</h3>
+    <form action="envio-formulario.php" method="post" enctype="multipart/form-data" >
+		  <input type="text" placeholder="Nombre" name="nombre" required>
+		  <input type="email" placeholder="Email" name="email" required>
+		  <textarea placeholder="Texto" name="texto" required></textarea>
+		  <input type="submit" value="ENVIAR MENSAJE">
+
+    </form>
+          
+
+    <div class="contacto-info">
+       <div class="mail"><img src="imagenes/mail-icon.png">marzoa3581@gmail.com</div>
+
+       <div class="whatsapp"><img src="imagenes/whatsapp-icon.png">1168885612</div>
+
+    </div>
+  </div>
+</section>
+
+<!--Seccion MAPA-->
+
+<section id="direccion">
+	<h3>Dirección</h3>
+	<div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.3659072690302!2d-58.75977328501523!3d-34.46824075784883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9894f9dd3bd3%3A0x31a3e8ed89643f04!2sMoreno%201269%2C%20Tortuguitas%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1601845695804!5m2!1ses!2sar" width="550" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+	
+</section>
+
+
+<!-- seccion columnas-->
+
+<!-- seccion pie-->
+
+<footer>
+  <div class="contenedor">
+    <div class="redes"><a href="#"><img src="imagenes/facebook.png" alt="imagen de facebook"></a>
+		  <a href="#"><img src="imagenes/medium.png" alt="imagen de medium"></a>
+		  <a href="#"><img src="imagenes/github.png" alt="imagen de github"></a>
+		  <a href="#"><img src="imagenes/linkedin.png" alt="imagen de linkedin"></a>
+    </div>
+    <div class="parrafo"><p>© 2020 Abel Acevedo | Diseñador Web Front End Argentina. Todos los derechos reservados</p></div>
+  </div>
+</footer>
+
+<!--Seccion whatsapp-->
+
+<section id="whatsapp">
+	<a href="https://api.whatsapp.com/send?phone=5491170197183"><img src="imagenes/whatsapp.png" alt=""></a>
+
+</section>
+
+</div>
+
+	
+</body>
+</html>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
